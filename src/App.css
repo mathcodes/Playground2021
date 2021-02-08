@@ -1,0 +1,63 @@
+@import 'react-pro-sidebar/dist/css/styles.css';
+
+.App {
+  text-align: center;
+}
+ 
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.topBtn{
+  width: 25%;
+}
+
+.titleJIS{
+  float:top;
+}
+
+.row>* {
+  flex-shrink: 0;
+  max-width: 100%;
+  /* padding-right: 0;*/
+  padding-left: 0; 
+  margin-top: var(--bs-gutter-y);
+}
+
+ul{
+  padding-left:0;
+}
+
+col{
+  padding:0;
+  gutter:0;
+}
+
+ 
+.col-2 {
+    border-right: yellowgreen;
+    border-right-width: 5px;
+    border-right-style: inset;
+}
+
+.logoutBtn{
+  background-color: rgb(255, 86, 86);
+  color: antiquewhite;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
+}
