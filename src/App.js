@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import ReactProSidebar from "./components/ReactProSidebar/index.js"
+import VertSidebar from "./components/VertSidebar/index";
+import VSB from "./components/VSB/index";
 import 'react-pro-sidebar/dist/css/styles.css';
 
 
@@ -84,8 +85,8 @@ function App() {
         <div className="row">
 
       
-
-<ReactProSidebar/>
+        <VSB/>
+ 
  
          </div>
         </div>
